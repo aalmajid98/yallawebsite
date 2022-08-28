@@ -24,9 +24,113 @@ body{
   }
   
   hr{
-    color: palevioletred;
+    color: #CDE4F3;
     height:1.5px;
     width: 1500px;
     border-width:1px;
-    background-color: palevioletred;
+    background-color: #CDE4F3;
   }
+
+  #testintro{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 130px;
+    font-size: 20px;
+    color: #133C55;
+  }
+
+  #startB{
+    font-size:17px;
+    background-color: white;
+    border-radius:8px;
+    border-width:2px;
+    padding:12px;
+    margin-top:30px;
+  }
+
+  #startB:hover{
+    background-color: #CDE4F3;
+    transition-duration: .6s;
+    cursor: pointer;
+  }
+
+  #cancelIconB {
+    position: absolute;
+    background-color: white;
+    margin-left:1380px;
+    border:none;
+    font-size:16px;
+    text-align:center;
+    display:inline-block;
+    vertical-align: top;
+    padding-bottom:30px;
+    margin-top: 20px;
+  }
+
+  #testlesson{
+    margin-left: 430px;
+    display: none;
+  }
+
+  #wordContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 700px;
+    height: 100px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width:2px;
+    border-radius: 8px;
+  }
+  
+  #userInputContainer{
+    margin-top: 30px;
+    width: 700px;
+    height: 120px;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: #EAEBEB;
+    border-radius: 8px;
+    border-width:2px;
+  }
+
+  #submitB{
+    font-family: 'Cabin', sans-serif;
+    background-color: #CDE4F3;
+    margin-left: 582px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: none;
+    border-color:lightgray;
+    width: 120px;
+    height:50px;
+    color: white;
+    font-size:17px;
+  }
+
+  #submitB:hover{
+    cursor: pointer;
+    background-color: lightskyblue;
+    transition-duration: .5s;
+  }
+
+  #userInput{
+    margin:10px;
+    padding:10px;
+    color: #133C55;
+    border: none;
+    background-color: #EAEBEB;
+    font-size:16px;
+    width: 662px;
+    height: 82px;
+    display: flex;
+    align-items:center;
+  }
+
+  #words{
+    height:30px;
+    width:300px;
+  }
+  

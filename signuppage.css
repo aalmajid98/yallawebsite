@@ -22,11 +22,12 @@ body{
   }
   
   hr{
-    color:palevioletred;
+    color:#CDE4F3;
     height:1.5px;
     width:1500px;
     border-width:1px;
-    background-color: palevioletred;
+    background-color: #CDE4F3;
+    box-shadow: none;
   }
   
   .smalleryalla{
@@ -51,8 +52,8 @@ body{
     margin:6px;
     border:none;
     outline:none;
-    border-bottom:3px solid palevioletred;
-    background-color:#e6e6e6;
+    border-bottom:3px solid #CDE4F3;
+    background-color:#CDE4F3;
   }
   
   input[type=submit]{
@@ -87,7 +88,7 @@ body{
   .line{
     flex:1;
     height: .5px;
-    background-color: palevioletred;
+    background-color: #CDE4F3;
     width: 18%;
   }
   

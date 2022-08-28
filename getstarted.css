@@ -22,11 +22,11 @@ body{
   }
 
   hr{
-    color: palevioletred;
+    color: #CDE4F3;
     height:1.5px;
     width: 1500px;
     border-width:1px;
-    background-color: palevioletred;
+    background-color: #CDE4F3;
   }
 
   .beginJourneyTT{
@@ -43,7 +43,6 @@ body{
     background-color: white;
     padding:40px;
     font-size:20px;
-    color: palevioletred;
     font-family: 'Cabin', sans-serif;
     margin-top:120px;
     border-radius:16px;
@@ -54,11 +53,11 @@ body{
   }
 
   .boxB a{
-    color: palevioletred;
+    color: #133C55;
   }
 
   .boxB:hover{
-    background-color: #dee2e6;
+    background-color: #CDE4F3;
     transition-duration: .5s;
     cursor:pointer;
   }

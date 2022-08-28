@@ -1,0 +1,31 @@
+body{
+    background-color:  white;
+    font-family: 'Cabin', sans-serif;
+    text-align:center;
+    padding:0;
+    margin:0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  h1{
+    margin-left:-1387px;
+    margin-top:10px;
+    margin-bottom:21px;
+    position: relative;
+    font-size:40px;
+  }
+  
+  h1 a{
+    text-decoration:none;
+    color: black;
+    font-size:35px;
+  }
+
+  #homesec{
+    position: relative;
+    background-color:#CDE4F3;
+    height: 670px;
+  }

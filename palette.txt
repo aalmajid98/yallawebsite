@@ -1,0 +1,2 @@
+light blue: #CDE4F3
+dark blue: #133C55

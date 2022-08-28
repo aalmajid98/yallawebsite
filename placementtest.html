@@ -23,7 +23,27 @@
           </div>
         </div>
         <hr> 
+        <div id="testintro">
+          <h2> Take Our Placement Test! </h2>
+          <p> This quick 5-minute test will gauge your knowledge based on a few Arabic questions, and place you into your level's lessons. </p>
+          <button id="startB" onclick = "clearDiv('startB', 'testintro'); showDiv('startB', 'testlesson'); displayArray(wordContainer);"> Start  </button>
+        </div>
+        <button id="cancelIconB"> <a href="homepage.html"> <img src="https://img.icons8.com/sf-ultralight/50/1A1A1A/delete-sign.png" alt=""> </a> </button>
+        <div id="testlesson">
+          <div id="wordContainer"> 
+          </div>
+          <div id="userInputContainer">
+            <div id="">
+              <input id="userInput" type="text" placeholder="Translate the sentence" required>
+            </div>
+          </div>
+          <button id="submitB"> <a > SUBMIT </a> </button>
+        </div>
 
-        <script src="placementtest.js"></script>
+        <script src="placementtest.js">
+          
+        </script>
+
+        
       </body>
 </html>
