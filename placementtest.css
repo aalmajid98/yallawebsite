@@ -74,8 +74,7 @@ body{
 
   #wordContainer{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-top: 150px;
     width: 700px;
     height: 100px;

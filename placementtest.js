@@ -1,24 +1,26 @@
-let fs = require('fs');
+/*
+var fs = require('fs');
 
- let engArr = readFileSync('englishwords.txt').toString().split('\n');
+ let engArr = readFileSync('englishwords.txt', 'utf8').toString().split('\n');
  const engArray = engArr;
- let arabArr = readFileSync('arabicwords.txt').toString().split('\n');
+ let arabArr = readFileSync('arabicwords.txt', 'utf8').toString().split('\n');
  const arabArray = arabArr;
  for (i in arabArr){
-    //console.log(arabArr[i])
+    console.log(arabArr[i])
  }
-
-/*   ASYNCRHONOUS   
-var readMe = fs.readFile('\englishwords.txt', 'utf8', (err, data) => {
+*/
+   //ASYNCRHONOUS   
+   var fs = require('fs');
+var readMe = fs.readFile('\arabicwords.txt', 'utf8', (err, data) => {
     if (err) throw err;
 
-    var array = data.toString().split("\n");
-    for (i in array){
-        //console.log(array[0]);
+    var arabArray = data.toString().split("\n");
+    for (i in arabArray){
+        console.log(arabArray[i]);
     }
 
-    return array;
-});*/
+    return arabArray;
+});
 
 function clearDiv(element, div){
    //document.getElementById(element).style.display='none';
@@ -38,6 +40,7 @@ function showDiv(element, div){
       });
 }
 
+/*
 function generateArabArr(element, size){
     console.log('hi')
 
@@ -71,13 +74,13 @@ function generateArabArr(element, size){
       });
     
 }
-
+*/
 
 function displayArray(button, container){
     display = document.getElementById(container);
     btn = document.getElementById(button);
     btn.addEventListener('click', () => {
-        var test = `<p>  Hello </p> `;
+        var test = `<p> Bonjour </p> `;
 
         display.innerHTML += test;
       });
