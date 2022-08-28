@@ -96,7 +96,7 @@ body{
     border-width:2px;
   }
 
-  #submitB{
+  #checkB{
     font-family: 'Cabin', sans-serif;
     background-color: #CDE4F3;
     margin-left: 582px;
@@ -110,7 +110,7 @@ body{
     font-size:17px;
   }
 
-  #submitB:hover{
+  #checkB:hover{
     cursor: pointer;
     background-color: lightskyblue;
     transition-duration: .5s;

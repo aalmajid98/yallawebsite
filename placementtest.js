@@ -73,21 +73,25 @@ function generateArabArr(element, size){
 }
 
 
-function displayArray(container){
+function displayArray(button, container){
     display = document.getElementById(container);
+    btn = document.getElementById(button);
+    btn.addEventListener('click', () => {
+        var test = `<p>  Hello </p> `;
+
+        display.innerHTML += test;
+      });
     //arr = document.getElementById(array);
     //console.log(array[0])
     //var phrase = `<p> ${array[0]} </p>`
-    var test = `<p> ${arabArray[0]} </p> `;
-
-    display.innerHTML += test;
+    
 }
 
 
 //clearDiv('startB', 'testintro'); 
 //showDiv('startB', 'testlesson'); 
 //generateArabArr('startB',15);
-displayArray('wordContainer');
+//displayArray('startB', 'wordContainer');
 
 
 
