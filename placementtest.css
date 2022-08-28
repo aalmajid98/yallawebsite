@@ -1,0 +1,32 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: white;
+    margin:0;
+    padding:0;
+  }
+  
+  a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  h1{
+    float: left;
+    margin-left:28px;
+    margin-top:15px;
+    margin-bottom:21px;
+  }
+  
+  h1 a{
+    text-decoration:none;
+    color: black;
+    font-size:35px;
+  }
+  
+  hr{
+    color: palevioletred;
+    height:1.5px;
+    width: 1500px;
+    border-width:1px;
+    background-color: palevioletred;
+  }

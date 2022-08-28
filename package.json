@@ -1,0 +1,14 @@
+{
+  "name": "yallawebsite",
+  "version": "1.0.0",
+  "main": "placementtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fatima J",
+  "license": "ISC",
+  "dependencies": {
+    "node.js": "^0.0.1-security"
+  },
+  "description": ""
+}

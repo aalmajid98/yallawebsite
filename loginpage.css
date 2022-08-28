@@ -1,0 +1,158 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: white;
+    margin:0;
+    padding:0;
+  }
+  
+  a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  h1{
+    float: left;
+    margin-left:28px;
+    margin-top:15px;
+    margin-bottom:21px;
+  }
+  
+  h1 a{
+    text-decoration:none;
+    color: black;
+    font-size:35px;
+  }
+  
+  hr{
+    color: palevioletred;
+    height:1.5px;
+    width: 1500px;
+    border-width:1px;
+    background-color: palevioletred;
+  }
+  
+  .smalleryalla{
+    font-size:40px;
+    margin-bottom:6px;
+  }
+  
+  .welcomebacktitle{
+    margin-top:30px;
+    margin-bottom:33px;
+  }
+  
+  .loginform{
+    text-align:center;
+    top:50%;
+    left:50%;
+  }
+  
+  input[type=text]{
+    width:18%;
+    padding:5px;
+    margin:5px;
+    border:none;
+    border-bottom:3px solid palevioletred;
+    background-color: #e6e6e6;
+    outline:none;
+  }
+  
+  .usernameinput{
+    margin-top: 50px;
+    margin-bottom:0px;
+  }
+  
+  .rmberme{
+    margin-left:-140px;
+    margin-bottom:5px;
+    font-size:8px;
+  }
+  
+  input[type=submit]{
+    transition-duration: 0.4s;
+    margin:5px;
+    background-color: dodgerblue;
+    color:white;
+    border:none;
+    font-size:14px;
+    padding:10px 19px;
+    border-radius:8px;
+    margin-top:20px;
+    letter-spacing:0.28px;
+  }
+  
+  input[type=submit]:hover{
+    background-color:deepskyblue;
+    cursor: pointer;
+  }
+  
+  .loginsignupsep{
+    margin-top:18px;
+    width:18%;
+    height:.3px;
+    color:palevioletred;
+  }
+  
+  .forgot {
+    letter-spacing:0.28px;
+    margin-top:6px;
+    margin-bottom:5px;
+  }
+  
+  p a{
+    text-decoration: none;
+  }
+  
+  .rmberme{
+    margin-left:-158px;
+    margin-top:12px;
+  }
+  
+  .separator{
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator {
+    padding: 0 38rem; /* creates the space */
+  }
+  
+  .line{
+    flex:1;
+    height: .5px;
+    background-color: palevioletred;
+    width: 18%;
+  }
+  
+  h4{
+    letter-spacing:0.4px;
+  }
+  
+  .googlesigninbtn{
+    width:18%;
+    margin-left:633px;
+    background-color:white;
+    border-radius:20px;
+    height:30%;
+    font-size:17px;  
+    text-align:center;
+    border:2px solid lightgray;
+    padding-left: 25px;
+    padding-bottom:15px;
+  }
+  
+  .googleimg{
+    height:30px;
+    width:40px;
+    display:inline-block;
+  }
+  
+  .signupp{
+    margin-left: 641px;
+    margin-top:20px;
+  }
+  
+  .signuplink{
+    color: dodgerblue;
+  }
+  

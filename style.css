@@ -1,0 +1,177 @@
+body{
+    background-color:  white;
+    font-family: 'Cabin', sans-serif;
+    text-align:center;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  h1{
+    float: left;
+    margin-left:20px;
+    margin-top:7px;
+    margin-bottom:21px;
+  }
+  
+  h1 a{
+    text-decoration:none;
+    color: black;
+    font-size:35px;
+  }
+  
+  .nav-words{
+    padding-top:13px;
+    padding-right: 10px;
+    float:right;
+  }
+  .nav-words a{
+    font-family: 'Cabin', sans-serif;
+    color: palevioletred;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav-words a:hover{
+    color: lightpink;
+  }
+  
+  .log-in-button{
+    background-color:white;
+    border-style:none;
+    display:inline;
+    text-decoration: none;
+    text-align:center;
+  }
+  
+  hr{
+    color: palevioletred;
+    height:1.5px;
+    width: 1500px;
+    border-width:1px;
+    background-color: palevioletred;
+  }
+  
+  .introsec{
+    position: relative;
+    background-color:palevioletred;
+    width: 1500px;
+    height: 670px;
+  }
+  
+  .introp{
+    float: left;
+    font-size: 35px;
+    color:white;
+    margin-top:240px;
+    margin-left:80px;
+  }
+  
+  .typinganim{
+    background-color:palevioletred;
+    float: right;
+    margin-right:320px;
+    margin-top:160px;
+  }
+  
+  .typingEffect,
+  .typEffectSpan {
+    display: block;
+    font-weight: 400;
+  }
+   
+  /*The good stuff*/
+  .typingEffect,
+  .typEffectSpan {
+    height: 100px;
+  }
+   
+  .typingEffect {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    overflow: hidden;
+    background-color: palevioletred;
+    color: white;
+    font-size: 50px;
+  }
+   
+  .typEffectSpan {
+    position: relative;
+    font-size: 1.5em;
+  }
+   
+  .typeWord,
+  .te7-item-overlay {
+    display: inline-block;
+  }
+   
+  .typeWord:after {
+    content: "";
+    position: absolute;
+    top: -16px;
+    right: 0;
+    bottom: -18px;
+    left: 0;
+    border-left: 1px solid white;
+    background-color: palevioletred;
+    animation: animatetoright 1s steps(10) infinite alternate;
+  }
+   
+  @keyframes animatetoright {
+    0% {
+      left: 0;
+      margin-right: auto;
+    }
+    100% {
+      left: 100%;
+      margin-left: 0.6em;
+      margin-right: -0.6em;
+    }
+  }
+  
+  .nameText{
+    font-family: 'Cabin', sans-serif;
+    font-size:15px;
+    position:relative;
+    width:260px;
+    margin-top:350px;
+    left:280px;
+    border-radius:6px;
+    padding:5px;
+    border-color:white;
+    outline:none;
+  }
+  
+  .seeName{
+    font-family: 'Cabin', sans-serif;
+    font-size:14px;
+    position: relative;
+    left:280px;
+    margin-top:20px;
+    border-radius:8px;
+    padding:8px;
+    background-color:white;
+    border:none;
+    cursor: pointer;
+  }
+
+  .seeName:hover{
+    transition-duration:.4s;
+    background-color: gainsboro;
+  }
+
+ .login2b, .signup2b {
+  background-color: white;
+  border-radius: 7px;
+  font-family: 'Cabin', sans-serif;
+  padding:7px 12px;
+  color: thistle;
+  text-decoration:none;
+  font-size: 20px;
+  margin:5px;
+ }
+  
+  
+
+  
+  
