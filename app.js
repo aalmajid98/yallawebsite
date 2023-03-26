@@ -7,8 +7,10 @@ const app = express();
 app.use(bodyParser.json()); //parses json data from frontend
 app.use(cors()); //CORS allows frontend to make requests to backend
 
-//Gets all static files from the public folder
-//app.use(express.static('public'));
+// Add a new route handler for the root path
+app.get('/', (req, res) => {
+    res.send('Welcome to the server!');
+  });
 
 // gets sample data from the api
 app.get('/api/data', (req, res) =>{
