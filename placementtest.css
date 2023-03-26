@@ -72,21 +72,30 @@ body{
     display: none;
   }
 
+  #instructions{
+    margin-left:180px;
+    margin-top:100px;
+    font-size:30px;
+  }
+
   #wordContainer{
     display: flex;
-    justify-content: left;
-    margin-top: 150px;
-    width: 700px;
-    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding:14px;
+    margin-top: 100px;
+    width: 575px;
+    height: 50px;
     border-style: solid;
     border-color: lightgray;
     border-width:2px;
     border-radius: 8px;
+    font-size:19px;
   }
   
   #userInputContainer{
     margin-top: 30px;
-    width: 700px;
+    width: 600px;
     height: 120px;
     border-style: solid;
     border-color: lightgray;
@@ -98,7 +107,7 @@ body{
   #checkB{
     font-family: 'Cabin', sans-serif;
     background-color: #CDE4F3;
-    margin-left: 582px;
+    margin-left: 800px;
     margin-top: 50px;
     border-radius: 8px;
     border: none;
@@ -122,7 +131,7 @@ body{
     border: none;
     background-color: #EAEBEB;
     font-size:16px;
-    width: 662px;
+    width: 560px;
     height: 82px;
     display: flex;
     align-items:center;

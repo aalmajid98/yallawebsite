@@ -16,7 +16,7 @@ var readMe = fs.readFile('\arabicwords.txt', 'utf8', (err, data) => {
 
     var arabArray = data.toString().split("\n");
     for (i in arabArray){
-        console.log(arabArray[i]);
+        //console.log(arabArray[i]);
     }
 
     return arabArray;
@@ -77,10 +77,11 @@ function generateArabArr(element, size){
 */
 
 function displayArray(button, container){
-    display = document.getElementById(container);
+    display = document.getElementById(container).innerHTML="";
     btn = document.getElementById(button);
     btn.addEventListener('click', () => {
-        var test = `<p> Bonjour </p> `;
+        //var test = `<p> Hello </p> `;
+        var test = `<p> ${arabArray[0]} </p> `;
 
         display.innerHTML += test;
       });
@@ -94,7 +95,7 @@ function displayArray(button, container){
 //clearDiv('startB', 'testintro'); 
 //showDiv('startB', 'testlesson'); 
 //generateArabArr('startB',15);
-//displayArray('startB', 'wordContainer');
+displayArray('startB', 'wordContainer');
 
 
 
